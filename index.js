@@ -70,6 +70,12 @@ function failPosition(error) {
 	
 }
 
+var locationOptions = { 
+	maximumAge: 10000, 
+	timeout: 6000, 
+	enableHighAccuracy: true 
+};
+
 function success(position)
 {
     
